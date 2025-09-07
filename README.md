@@ -28,8 +28,10 @@ The application provides the following menu options:
 
 ## 📂 Project Structure
 The codebase is divided into multiple files for modularity:
-main.c # Contains main function and menu logic
-budget.c # Implements budget-related operations (add, modify, distribution, etc.)
-data.c # Handles file reading, parsing, and data management
-ordering.c # Sorting functionality
-main.h, budget.h, data.h, ordering.h # Corresponding header files
+
+- `main.c` – Contains main function and menu logic  
+- `budget.c` – Implements budget-related operations (add, modify, distribution, etc.)  
+- `data.c` – Handles file reading, parsing, and data management  
+- `ordering.c` – Sorting functionality  
+- `main.h`, `budget.h`, `data.h`, `ordering.h` – Corresponding header files  
+
